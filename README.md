@@ -3,7 +3,7 @@
 
 Iris_AI is a deep learning-based model that classifies the species of Iris flowers based on four key measurements. The project uses a Multi-Layer Perceptron (MLP) model, trained on a custom Iris dataset available in this repository, to provide accurate species predictions.
 
-[![Open in Google Colab]([https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1CHcq6DC5NUhVxvUpSigtWySm0n8Kx1Dd?usp=sharing](https://colab.research.google.com/drive/1mi40HNfjmxckxSHrd9Zk7oBacwdxW65v?usp=sharing))
+[![Open in Google Colab]([https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1mi40HNfjmxckxSHrd9Zk7oBacwdxW65v)
 
 ---
 
