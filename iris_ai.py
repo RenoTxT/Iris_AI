@@ -27,13 +27,21 @@ label_encoder.fit(['Iris-setosa', 'Iris-versicolor', 'Iris-virginica'])  # Adjus
 
 # Define the prediction function
 def predict_iris(sepal_length, sepal_width, petal_length, petal_width):
-    # Prepare input data as a numpy array
     input_data = np.array([[sepal_length, sepal_width, petal_length, petal_width]])
-    # Predict the species
-    prediction = model.predict(input_data)
+    prediction = model.predict(input_data, verbose=0)  # Set verbose=0 to avoid unnecessary logs
     predicted_class = np.argmax(prediction)
     predicted_species = label_encoder.inverse_transform([predicted_class])[0]
-    print(f"Predicted Iris species: {predicted_species}")
+    print(f"Prediksi jenis bunga Iris: {predicted_species}")
 
-# Example prediction (change values as needed)
-predict_iris(7, 6, 1, 3)  # Input data in the order: sepal_length, sepal_width, petal_length, petal_width
+# Input data from user
+try:
+    sepal_length = float(input("Masukkan panjang sepal (cm): "))
+    sepal_width = float(input("Masukkan lebar sepal (cm): "))
+    petal_length = float(input("Masukkan panjang petal (cm): "))
+    petal_width = float(input("Masukkan lebar petal (cm): "))
+    
+    # Call the prediction function with the user input
+    predict_iris(sepal_length, sepal_width, petal_length, petal_width)
+
+except ValueError:
+    print("Input invalid")
