@@ -35,10 +35,10 @@ def predict_iris(sepal_length, sepal_width, petal_length, petal_width):
 
 # Input data from user
 try:
-    sepal_length = float(input("Masukkan panjang sepal (cm): "))
-    sepal_width = float(input("Masukkan lebar sepal (cm): "))
-    petal_length = float(input("Masukkan panjang petal (cm): "))
-    petal_width = float(input("Masukkan lebar petal (cm): "))
+    sepal_length = float(input("Input sepal length (cm): "))
+    sepal_width = float(input("Input sepal width (cm): "))
+    petal_length = float(input("Input petal length (cm): "))
+    petal_width = float(input("Input petal width (cm): "))
     
     # Call the prediction function with the user input
     predict_iris(sepal_length, sepal_width, petal_length, petal_width)
