@@ -35,7 +35,7 @@ To run the project directly in Google Colab, click the badge above or this link.
 <h2>Running on VS Code (Recommended)</h2>
 To avoid certain warnings and errors that may appear when running the project from the Command Prompt, it is recommended to run the project in VS Code. You can follow the same steps as above, but instead of using the Command Prompt, use VS Code’s integrated terminal. This way, you can run the project smoothly without encountering issues related to warnings that may interfere with your experience.
 <hr/>
-🌼 Example Usage
+<h2>🌼 Example Usage</h2>
 After training, you can use the function predict_iris to make predictions. Simply input values to predict the Iris species:
    
    <pre>
@@ -45,7 +45,7 @@ After training, you can use the function predict_iris to make predictions. Simpl
    # Output: Predicted species, e.g., "Iris-versicolor"
    </pre>
 <hr/>
-📈 Training the Model
+<h2>📈 Training the Model</h2>
 The model is trained using the following settings:
 
 Model Architecture: Multi-Layer Perceptron with dense layers.
@@ -54,13 +54,13 @@ Batch Size: 16
 Optimizer: Adam with a learning rate of 0.001
 Training metrics (accuracy and loss) are visualized to help assess model performance over time.
 <hr/>
-📊 Visualizing Results
+<h2>📊 Visualizing Results</h2>
 After training, the model's accuracy and loss are plotted for both training and validation data to show progress and convergence.
 <hr/>
-🌸 Contributing
+<h2>🌸 Contributing</h2>
 Feel free to fork this repository, make enhancements, and submit pull requests. We welcome contributions that improve accuracy, enhance usability, or add new features.
 <hr/>
-License
+<h2>License</h2>
 Feel free to use this project however if you want to use at your program I hope you give me a credit by tag this github
 <hr/>
 Enjoy exploring the world of Iris flowers with Iris_AI!
