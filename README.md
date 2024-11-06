@@ -29,7 +29,7 @@ Iris_AI is a deep learning-based model that classifies the species of Iris flowe
 3. **Running on VS Code (Recommended)**:  
    To avoid certain warnings and errors that may appear when running the project from the Command Prompt, it is recommended to run the project in VS Code. You can follow the same steps as above, but instead of using the Command Prompt, use VS Code’s integrated terminal.    This way, you can run the project smoothly without encountering issues related to warnings that may interfere with your experience.
 
-<h2>Running on Google Colab</h2>
+### Running on Google Colab
 To run the project directly in Google Colab, click the badge above or this link. This link opens the Colab notebook where you can explore and train the model step-by-step.
 <hr/>
 <h2>🌼 Example Usage</h2>
