@@ -49,10 +49,10 @@ After training, you can use the function predict_iris to make predictions. Simpl
 The model is trained using the following settings:
 
 Model Architecture: Multi-Layer Perceptron with dense layers.
-Epochs: 100 (can be adjusted as desired)
-Batch Size: 16
-Optimizer: Adam with a learning rate of 0.001
-Training metrics (accuracy and loss) are visualized to help assess model performance over time.
+<br/>Epochs: 100 (can be adjusted as desired)
+<br/>Batch Size: 16
+<br/>Optimizer: Adam with a learning rate of 0.001
+<br/>Training metrics (accuracy and loss) are visualized to help assess model performance over time.
 <hr/>
 <h2>📊 Visualizing Results</h2>
 After training, the model's accuracy and loss are plotted for both training and validation data to show progress and convergence.
