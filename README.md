@@ -43,6 +43,7 @@ python
 # Example: Predicting Iris species based on measurements
 predict_iris(5.8, 2.7, 4.1, 1.0)
 # Output: Predicted species, e.g., "Iris-versicolor"
+
 <hr/>
 📈 Training the Model
 The model is trained using the following settings:
