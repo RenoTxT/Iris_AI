@@ -19,5 +19,44 @@ Iris_AI is a deep learning-based model that classifies the species of Iris flowe
 ### Running the Project Locally
 1. **Clone the Repository**:  
    ```bash
-   git clone https://github.com/your-username/Iris_AI.git
+   git clone https://github.com/RenoTxT/Iris_AI.git
    cd Iris_AI
+   
+2. **Install Dependency**:  
+   ```bash
+   pip install -r requirements.txt
+
+3. **Run The Notebook**:  
+   Open the Iris_AI.ipynb notebook in Jupyter Notebook or Google Colab to start training and using the model.
+
+Running on Google Colab
+To run the project directly in Google Colab, click the badge above or this link. This link opens the Colab notebook where you can explore and train the model step-by-step.
+<hr/>
+🌼 Example Usage
+After training, you can use the function predict_iris to make predictions. Simply input values to predict the Iris species:
+
+python
+```bash
+# Example: Predicting Iris species based on measurements
+predict_iris(5.8, 2.7, 4.1, 1.0)
+# Output: Predicted species, e.g., "Iris-versicolor"
+<hr/>
+📈 Training the Model
+The model is trained using the following settings:
+
+Model Architecture: Multi-Layer Perceptron with dense layers.
+Epochs: 100 (can be adjusted as desired)
+Batch Size: 16
+Optimizer: Adam with a learning rate of 0.001
+Training metrics (accuracy and loss) are visualized to help assess model performance over time.
+<hr/>
+📊 Visualizing Results
+After training, the model's accuracy and loss are plotted for both training and validation data to show progress and convergence.
+<hr/>
+🌸 Contributing
+Feel free to fork this repository, make enhancements, and submit pull requests. We welcome contributions that improve accuracy, enhance usability, or add new features.
+<hr/>
+License
+Feel free to use this project however if you want to use at your program I hope you give me a credit by tag this github
+<hr/>
+Enjoy exploring the world of Iris flowers with Iris_AI!
